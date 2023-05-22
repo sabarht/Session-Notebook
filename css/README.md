@@ -1,7 +1,7 @@
 | POSITION | NORMAL FLOW?                         | CAN I CONTROL LOCATION?                              |
 | -------- | ------------------------------------ | ---------------------------------------------------- |
-| Relative |                                      | relative to self                                     |
-| Fixed    | switch branches                      | relative to viewport                                 |
-| Absolute | list your branches                   | relative to next none static                         |
-| Sticky   | list all branches (local and remote) | relative to viewport(sticks when makes the location) |
+| Relative |          ✅                           | relative to self                                     |
+| Fixed    | ❌                     | relative to viewport                                 |
+| Absolute | ❌                  | relative to next none static                         |
+| Sticky   | ❌  | relative to viewport(sticks when reaches the location) |
 |          |                                      |                                                      |
